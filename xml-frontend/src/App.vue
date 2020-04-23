@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-   <home-page></home-page>
+   <ad-page></ad-page>
    <router-view />
   </div>
 </template>
 
 <script>
-import HomePage from './components/HomePage.vue'
+import NewAd from './components/NewAd.vue'
 
 export default {
   name: 'App',
   components: {
-    "home-page" : HomePage
+    "ad-page" : NewAd
   }
 }
 </script>
