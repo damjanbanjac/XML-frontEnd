@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-   <ad-page></ad-page>
+    <navbar></navbar>
+
    <router-view />
   </div>
 </template>
 
 <script>
-import NewAd from './components/NewAd.vue'
+import Navbar from  './components/Navbar.vue'
+
 
 export default {
   name: 'App',
   components: {
-    "ad-page" : NewAd
+ 
+    "navbar" : Navbar
   }
 }
 </script>
